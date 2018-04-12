@@ -1,0 +1,351 @@
+/* =====================================
+    Default Theme
+    ------------------------------------
+    Fonts: Raleway & Open Sans
+    ------------------------------------
+    Colors:
+        Light Blue:     #3B94C8
+        Raisin Black:   #212226
+        White Smoke:    #F4F4F4
+        White:          #FFFFFF
+        Black:          #000000
+===================================== */
+
+/* =====================================
+            HTML & Body
+===================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #212226;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: white;
+    overflow: hidden;
+}
+
+/* =====================================
+            Content Boxes
+===================================== */
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+.content-box-md {
+    padding: 100px 0;
+}
+
+.content-box-sm {
+    padding: 90px 0;
+}
+
+/* =====================================
+              Buttons
+===================================== */
+
+.btn-general {
+    font-family: "Raleway", sans-serif;
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 46px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-home {
+    color: #ffffff;
+    border: 1px solid white;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+    color: #ffffff;
+    background-color: #3B94C8;
+    border: 1px solid #3B94C8;
+}
+
+.btn-yellow {
+    color: #ffffff;
+    border: 1px solid #F4C613;
+    background-color: #F4C613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #ffffff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
+.btn-white {
+    color: #212226;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    color: #ffffff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    display: none;
+}
+
+/* =====================================
+    Vertical / Horizontal Headings
+===================================== */
+
+.vertical-heading h5 {
+    color: #3B94C8;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    top: 60px;
+    left: -53px;
+}
+
+.vertical-heading h2 {
+    margin: 0 0 0 35px;
+}
+
+.horizontal-heading h2,
+.vertical-heading h2 {
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+.horizontal-heading {
+    margin-bottom: 80px;
+}
+
+.horizontal-heading h5 {
+    font-size: 16px;
+    color: #F4C613;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.horizontal-heading h2 {
+    margin: 0;
+}
+
+
+/* =====================================
+                Home
+===================================== */
+
+/* Black Overlay*/
+#home {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/branding/branding.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/branding/branding.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#home-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+#home-heading h1 span {
+    color: #3B94C8;
+    font-weight: 500;
+}
+
+#home-text p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 8px 0 30px 0;
+}
+
+#home-sub-text p {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 8px 0 30px 0;
+}
+
+#home-sub-text p span {
+    color: #3B94C8;
+}
+
+#home-btn {
+    margin-top: 50px;
+}
+
+/* =====================================
+                About
+===================================== */
+
+/* About Part 1 */
+
+#about-right h2 {
+    color: #3B94C8;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#about-right p {
+    margin-bottom: 30px;
+}
+
+#about-right p:last-child {
+    margin-bottom: 0;
+}
+
+#about-bottom {
+    margin-top: 60px;
+}
+
+#about-bottom img {
+    margin: auto 0;
+}
+
+/* About Part 2 */
+
+#about-02 {
+    background-color: #F4F4F4;
+}
+
+.about-item {
+    background-color: #ffffff;
+    padding: 80px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+.about-item i {
+    font-size: 42px;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    width: 45px;
+    height: 3px;
+    background-color: #3B94C8;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p {
+    margin-top: 20px;
+}
+
+.about-item:hover {
+    background-color: #3B94C8;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: #FFF;
+}
+
+.about-item:hover i {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+.about-item i,
+.about-item hr {
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+/* =====================================
+            Statement
+===================================== */
+
+#statement {
+    background: url("../img/statement/statement_1.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#tech-statement h3 {
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+#tech-statement p {
+    color: #F4C613;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 8px;
+}
+
+
